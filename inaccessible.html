@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise</title>
+    <style>
+        body { font-family: sans-serif; color: #777; }
+        .header { font-size: 24px; font-weight: bold; }
+        .btn { color: blue; text-decoration: underline; cursor: pointer; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <div class="header">Welcome to My Store</div>
+    
+    <h4>Flash Sale!</h4>
+
+    <img src="https://placeholder.com" onclick="alert('Sale clicked!')">
+
+    <p>To see our deals, <a href="deals.html">click here</a>.</p>
+
+    <p>Enter the total cost: 125000</p>
+    <input type="text" placeholder="Amount"> 
+    
+    <div class="btn" onclick="submitForm()">Submit Order</div>
+
+    <table>
+        <tr>
+            <td>Item</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>$1.00</td>
+        </tr>
+    </table>
+
+    <script>
+        function submitForm() {
+            alert("Order Submitted!");
+        }
+    </script>
+</body>
+</html>
