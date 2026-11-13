@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise</title>
+    <style>
+        body { font-family: sans-serif; color: #777; }
+        .header { font-size: 24px; font-weight: bold; }
+        .btn { color: blue; text-decoration: underline; cursor: pointer; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Store</h1>
+    
+    <h4>Flash Sale!</h4>
+
+    <img src="https://openclipart.org/image/800px/291711.webp" alt="Sale sticker" onclick="alert('Sale clicked!')">
+
+    <p> <a href="deals.html">Click here to see our deals.</a> </p>
+
+    <p>Enter the total cost: 125000</p>
+    <input type="text" placeholder="Amount"> 
+    <br>
+    <br>
+    <button onclick="submitForm()">Submit Order </button>
+    <table>
+        <tr>
+            <td>Item</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>$1.00</td>
+        </tr>
+    </table>
+
+    <script>
+        function submitForm() {
+            alert("Order Submitted!");
+        }
+    </script>
+</body>
+</html>
